@@ -50,6 +50,7 @@ declare type NewUserParams = {
 };
 
 declare type Account = {
+  map: ReactNode;
   id: string;
   availableBalance: number;
   currentBalance: number;
